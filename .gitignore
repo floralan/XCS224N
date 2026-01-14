@@ -1,6 +1,11 @@
-# Submission folder
-Week5_materials/src/submission/
-Week5_materials/src/data/
+# Large model files (weights/params from training)
+*.params
+
+# Prediction output files
+*.predictions
+
+# Data folder (large training data)
+src/data/
 
 
 # OS generated files
@@ -59,3 +64,6 @@ __pycache__/
 tmp/
 temp/
 *.tmp
+
+# AI tool config files
+.claude/
